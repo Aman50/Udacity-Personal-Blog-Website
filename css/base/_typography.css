@@ -55,6 +55,10 @@ html {
   font-style: italic;
 }
 
+.underlined {
+  text-decoration: underline;
+}
+
 .blockquote::before,
 .blockquote::after {
   content: '"';
