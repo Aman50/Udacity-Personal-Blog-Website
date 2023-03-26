@@ -59,6 +59,10 @@ html {
   text-decoration: underline;
 }
 
+.blockquote {
+  margin: 0;
+}
+
 .blockquote::before,
 .blockquote::after {
   content: '"';
