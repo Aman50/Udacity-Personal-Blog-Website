@@ -1,29 +1,31 @@
 @import url("./base/_reset.css");
-@import url("./base/_headings.css");
+@import url("./base/_typography.css");
 @import url("./layouts/_header.css");
 @import url("./components/_container.css");
 @import url("./components/_nav.css");
 @import url("./components/_main.css");
-@import url("./components/__blog.css");
+@import url("./components/_blog.css");
 @import url("./components/_posts.css");
 @import url("./components/_card.css");
+@import url("./components/_credits.css");
 @import url("./components/_btn.css");
 @import url("./layouts/_footer.css");
 
 body {
-    background: linear-gradient(to right, #cef8cb, #f3b3bd);
+  background: linear-gradient(to right, #cef8cb, #f3b3bd);
 }
 
 /* Variables */
 :root {
-    --color-white: #fff;
-    --color-soft-blue: #18d6f4;
-    --color-black: #000;
-    --color-light-gray: #f4f2f2;
-    --line-light: 0.2rem solid var(--color-light-gray);
-    --color-soft-white: #f9f7f5;
-    --color-soft-black: #101d2c;
-    --color-primary-dark: #BA265D;
-    --color-gold: #c69963;
-    --color-soft-orange: #ee9393;
+  --color-white: #fff;
+  --color-soft-blue: #18d6f4;
+  --color-black: #000;
+  --color-light-gray: #f4f2f2;
+  --line-light: 0.2rem solid var(--color-light-gray);
+  --color-soft-white: #f9f7f5;
+  --color-soft-black: #101d2c;
+  --color-primary-dark: #ba265d;
+  --color-gold: #c69963;
+  --color-soft-orange: #ee9393;
+  --color-dark-gray: rgba(255, 255, 255, 0.2);
 }

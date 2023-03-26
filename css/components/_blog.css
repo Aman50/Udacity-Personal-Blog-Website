@@ -1,0 +1,46 @@
+.blog__data {
+  padding: 10rem;
+  background: var(--color-white);
+  margin: 0 auto;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.blog__meta {
+  display: flex;
+  padding: 0 4rem;
+  justify-content: flex-end;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.blog__heading {
+  text-align: center;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.blog__hero {
+  width: 70%;
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 640px) {
+  .blog__data {
+    padding: 5rem;
+    width: 100%;
+  }
+
+  .blog__hero {
+    float: none;
+    width: 95%;
+    margin: 1.5rem;
+  }
+}

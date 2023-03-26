@@ -1,18 +1,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    border: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 75%;
-    box-sizing: border-box;
-}
-
-@media screen and (max-width: 640px) {
-    html {
-        font-size: 62.5%;
-    }
+  box-sizing: inherit;
+  border: 0;
+  padding: 0;
 }

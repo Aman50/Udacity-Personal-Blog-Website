@@ -1,0 +1,70 @@
+html {
+  font-size: 75%;
+  box-sizing: border-box;
+}
+
+.heading--2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: var(--color-gold);
+  margin: 0;
+  border-bottom: 0.1rem solid var(--color-gold);
+}
+
+.heading--3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  color: var(--color-soft-black);
+}
+
+.section__title {
+  border-bottom: 0.1rem solid var(--color-gold);
+}
+
+.first-letter {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.blockquote {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.line::after {
+  content: "";
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  border-bottom: 0.1rem dashed var(--color-gold);
+  margin: 2rem;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.blockquote::before,
+.blockquote::after {
+  content: '"';
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: -2rem;
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+}
