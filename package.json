@@ -1,0 +1,29 @@
+{
+  "name": "udacity-personal-blog-website",
+  "version": "1.0.0",
+  "description": "Simple HTML CSS Website for Blog Posts",
+  "main": "../index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman50/Udacity-Personal-Blog-Website.git"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "keywords": [
+    "blog",
+    "udacity",
+    "website",
+    "html",
+    "css"
+  ],
+  "author": "Aman Bhalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aman50/Udacity-Personal-Blog-Website/issues"
+  },
+  "homepage": "https://github.com/Aman50/Udacity-Personal-Blog-Website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

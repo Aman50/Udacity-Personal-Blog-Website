@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.nav__list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.nav__list-item {
+    height: 100%;
+}
+
+.nav__option:link {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+
+.nav__option:hover,
+.nav__option:active,
+.nav__option:focus {
+    background: var(--color-light-gray);
+}
+
+.nav__icon {
+    font-size: 2rem;
+}

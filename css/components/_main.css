@@ -1,0 +1,31 @@
+.main {
+    background-color: var(--color-light-gray);
+    border-bottom: var(--line-light);
+}
+
+.main__intro {
+    background-image: linear-gradient(to top right, var(--color-white), var(--color-light-gray));
+    padding: 5rem;
+    text-align: center;
+}
+
+.main__intro-heading {
+    animation: 1s heart-beat infinite alternate;
+}
+
+@keyframes heart-beat {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+        filter: hue-rotate(180deg);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main__intro {
+        padding: 2rem;
+    }
+}
