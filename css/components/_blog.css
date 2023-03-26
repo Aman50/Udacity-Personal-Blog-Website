@@ -43,4 +43,9 @@
     width: 95%;
     margin: 1.5rem;
   }
+  
+  .blog__meta {
+    gap: 2rem;
+    padding: 0 2rem;
+  }
 }
